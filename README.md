@@ -1,41 +1,41 @@
-# 🧠 AI-Powered Mental Health Tracker
+# AI-Powered Mental Health Tracker
 
 A comprehensive mental health tracking application with AI-powered insights, built with Next.js, Supabase, MongoDB, and n8n workflows.
 
-## ✨ Features
+## Features
 
-### 🔐 Authentication
+### Authentication
 - **Magic Link Authentication** - Secure email-based login
 - **Supabase Integration** - Robust user management
 - **Session Management** - Persistent user sessions
 
-### 📊 Mood Tracking
+### Mood Tracking
 - **Daily Mood Logging** - Track mood, energy, sleep, stress
 - **Activity Tracking** - Log activities that affect your mood
 - **Notes & Context** - Add personal notes to entries
 - **Visual History** - Beautiful charts and analytics
 
-### 🤖 AI-Powered Insights
+### AI-Powered Insights
 - **Personalized Analysis** - AI analyzes your mood patterns
 - **Smart Recommendations** - Actionable suggestions based on data
 - **Pattern Recognition** - Identifies trends in your mental health
 - **Crisis Support** - Specialized help for low mood situations
 - **Positive Reinforcement** - Encouraging progress messages
 
-### 📈 Analytics & Visualization
+### Analytics & Visualization
 - **Mood Trends** - Weekly and monthly mood charts
 - **Activity Distribution** - See what activities boost your mood
 - **Progress Tracking** - Visualize your mental health journey
 - **Dashboard Stats** - Key metrics at a glance
 
-### 🔧 Technical Features
+### Technical Features
 - **Real-time Updates** - Instant data synchronization
 - **Responsive Design** - Works on all devices
 - **Offline Support** - Basic functionality without internet
 - **Data Export** - Export your mood data
 - **Privacy Focused** - Your data stays private
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Next.js 14** - React framework with App Router
@@ -59,7 +59,7 @@ A comprehensive mental health tracking application with AI-powered insights, bui
 - **Docker** - n8n containerization
 - **CI/CD** - Automated deployment pipeline
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
@@ -160,30 +160,7 @@ Visit `http://localhost:3000` to see your app!
 node test-n8n.js
 ```
 
-## 📁 Project Structure
-
-```
-mental-health-tracker/
-├── app/                    # Next.js App Router
-│   ├── api/               # API routes
-│   ├── dashboard/         # Dashboard pages
-│   └── globals.css        # Global styles
-├── components/            # React components
-│   ├── AIInsights.tsx    # AI insights display
-│   ├── MoodTracker.tsx   # Mood tracking form
-│   └── DashboardStats.tsx # Analytics components
-├── lib/                   # Utility libraries
-│   ├── supabase.ts       # Supabase client
-│   ├── mongodb.ts        # MongoDB connection
-│   ├── n8n.ts           # n8n integration
-│   └── auth-context.tsx  # Authentication context
-├── types/                 # TypeScript definitions
-├── n8n-workflow.json     # n8n workflow configuration
-├── docker-compose.yml    # n8n Docker setup
-└── README.md             # This file
-```
-
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/magic-link` - Send magic link email
@@ -195,13 +172,6 @@ mental-health-tracker/
 ### AI Integration
 - `POST /api/ai/insights` - Request AI analysis (via n8n)
 - `GET /api/ai/patterns` - Get mood pattern analysis
-
-## 🚀 Deployment
-
-### Vercel Deployment
-1. Connect your GitHub repository to Vercel
-2. Add environment variables in Vercel dashboard
-3. Deploy automatically on push to main
 
 ### n8n Production Setup
 1. Deploy n8n to your server or cloud
@@ -219,7 +189,7 @@ MONGODB_URI=your_production_mongodb_uri
 NEXT_PUBLIC_SUPABASE_URL=your_production_supabase_url
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Run Tests
 ```bash
@@ -239,7 +209,7 @@ npm run test:ui
 3. **AI Insights** - Verify AI recommendations
 4. **Analytics** - Check charts and stats
 
-## 🔒 Security
+## Security
 
 ### Data Protection
 - **Encrypted Storage** - All data encrypted at rest
@@ -252,25 +222,11 @@ npm run test:ui
 - **API Key Rotation** - Regular key updates
 - **HTTPS Only** - Secure connections in production
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
-## 📞 Support
-
-- **Documentation** - Check the `/docs` folder
-- **Issues** - Report bugs on GitHub
-- **Discussions** - Ask questions in GitHub Discussions
-
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Supabase** - Authentication and database
 - **n8n** - Workflow automation
