@@ -140,7 +140,7 @@ npm run dev
 
 Visit `http://localhost:3000` to see your app!
 
-## 🤖 AI Features Setup
+## AI Features Setup
 
 ### n8n Workflow Features
 - **Webhook Trigger** - Receives mood data from your app
