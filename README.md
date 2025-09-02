@@ -234,6 +234,3 @@ MIT License - see LICENSE file for details
 - **Next.js** - React framework
 - **Tailwind CSS** - Styling framework
 
----
-
-**🎉 Congratulations!** Your AI-powered Mental Health Tracker is ready to help users track their mental health with intelligent insights and personalized recommendations. 
